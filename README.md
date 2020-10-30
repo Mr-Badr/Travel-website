@@ -1,3 +1,3 @@
 # Travel-website
-One page website 2020 V1.0
+Travel website 2020 V1.0
 
