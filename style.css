@@ -81,17 +81,24 @@ nav ul {
   align-items: center;
   list-style: none;
 }
+@font-face {
+  /* i have to remove that */
+  font-family: "Vibes";
+  src: url("./fonts/GreatVibes-Regular.ttf");
+}
+
 #logo {
   flex: 2 1 40rem;
   font-family: "Pattaya", sans-serif;
   font-weight: 400;
+  font-family: "Vibes"; /* i have to remove that */
 }
 
 /********* Main Section *********/
 .hero {
   min-height: 90vh;
   background: linear-gradient(rgba(0, 0, 0, 0.9), transparent),
-    url("/img/main-img.jpg");
+    url("./img/main-img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -110,7 +117,7 @@ nav ul {
 #locations {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),
-    url("/img/benefits-section.jpg");
+    url("./img/benefits-section.jpg");
   background-size: cover;
   background-position: top;
   display: flex;
@@ -175,7 +182,7 @@ nav ul {
   text-align: center;
   flex: 1 1 25rem;
   min-height: 40vh;
-  margin: 2rem 5rem;
+  margin: 5rem 2rem;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1), 0px 20px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -197,7 +204,7 @@ nav ul {
 #contact {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), transparent),
-    url(/img/Natur.jpg);
+    url(./img/Natur.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
